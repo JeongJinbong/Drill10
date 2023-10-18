@@ -32,8 +32,8 @@ def reset_world():
     front_grass = Grass()
     back_grass = Grass(400, 50)
 
-    game_world.add_object(back_grass,0)
-    game_world.add_object(front_grass,2)
+    game_world.add_object(back_grass,0)     #뒷 배경
+    game_world.add_object(front_grass,2)    #앞 배경
 
     boy = Boy()
     game_world.add_object(boy, 1)
